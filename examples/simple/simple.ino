@@ -15,7 +15,7 @@ void setup() {
   Serial.print( moon.angle );             // angle is a integer between 0-360
   Serial.println( " degrees." );
   Serial.print( "Moon surface lit: " );
-  Serial.print( moon.percentLit * 100 );  // percentLit is a real between 0-1
+  Serial.println( moon.percentLit * 100 );  // percentLit is a real between 0-1
 }
 
 void loop() {
